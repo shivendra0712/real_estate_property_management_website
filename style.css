@@ -1,0 +1,128 @@
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+
+html , body{
+     width: 100%;
+     height: 100%;
+}
+main{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1416331108676-a22ccb276e35?q=80&w=1767&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Parkinsans", serif;
+    
+
+}
+
+
+nav {
+    width: 100%;
+    padding: 0 5%;
+    padding-top: 20px;
+    /* background-color: #dadae1; */
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-size: 18px;
+
+}
+ nav h1{
+    padding-left: 5%;
+     color: white;
+     font-size: 2em;
+}
+
+ .links {
+    margin-left: 20%;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #C3FF96; */
+}
+
+.links > a {
+    text-decoration: none;
+    color: white;
+} 
+
+.nav_buttom{
+      width: 30%;
+      /* background-color: #C3FF96; */
+}
+.nav_buttom button{
+   margin-left: 25px;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #C3FF96;
+}
+
+.page1{
+    margin-top: 2%;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+    align-items: center;
+    /* background-color: #C3FF96; */
+    font-size: 18px;
+}
+
+.page1_left{
+    width: 40%;
+    height: 60%;
+    /* background-color: burlywood; */
+    background-color: rgba(0, 0, 0,0.2);
+    color: white;
+}
+.page1_right{
+    width: 30%;
+    height: 90%;
+    background-color: rgba(0, 0, 0,0.6);
+    color: white;
+    padding-left: 5%;
+}
+
+.page1_left h1{
+     font-size: 3em;
+}
+
+
+.page1_right h1{
+    
+    margin-bottom: 7%;
+}
+form input{
+    width: 80%;
+    height: 40px;
+    margin-bottom: 7%;
+}
+
+.page1_right p{
+   
+   margin-top: 5%;
+   margin-bottom: 5%;
+}
+.page1_right p > i{
+   
+  color: #FFC30F;
+  font-size: 1.8em;
+}
+.page1_right  button{
+    
+   margin: 0 auto;
+   width: 80%;
+   height: 40px;
+   border-radius: 10px;
+   background-color: #FC5D4B;
+   color: white;
+  border: none;
+}
