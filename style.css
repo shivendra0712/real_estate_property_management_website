@@ -1,78 +1,111 @@
-*{
-     padding: 0;
-     margin: 0;
-     box-sizing: border-box;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-html , body{
-     width: 100%;
-     height: 100%;
-     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-main{
+html,
+body {
     width: 100%;
     height: 100%;
-    background-image: url(https://images.unsplash.com/photo-1416331108676-a22ccb276e35?q=80&w=1767&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: "Parkinsans", serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /* added style of nav */
 nav {
     width: 100%;
-   height: 100px;
+    height: 100px;
     background-color: #dadae1;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   padding: 0 3vw;
-}
- nav h1{
-     font-size: 3vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3vw;
 }
 
- .links {
+nav h1 {
+    font-size: 3vw;
+}
+
+.links {
     display: flex;
     align-items: center;
     /* background-color: #C3FF96; */
     gap: 3vw;
 }
 
-.links > a {
+.links>a {
     text-decoration: none;
     font-size: 1.2vw;
     font-weight: 400;
-} 
-.nemu{
-     display: flex;
-     align-items: center;
-     gap: 3vw;
 }
-.nemu button{
+
+.nemu {
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+}
+
+.nemu button {
     padding: 1vh 2vw;
     font-size: 1.3vw;
     font-weight: 500;
     border-radius: 5px;
     border: none;
 }
-.nemu i{
-   
+
+.nemu i {
+
     font-size: 1.5vw;
     font-weight: 600;
-   display: none;
+    display: none;
 }
 
-.page1{
-    margin-top: 2%;
+
+/* added style of page1 */
+
+.page1 {
     width: 100%;
-    height: 80%;
+    height: 70%;
+    background-image: url(images/hero-section_image.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1px;
+}
+
+.page1>h1 {
+    text-align: center;
+    font-size: 4vw;
+    margin-top: 7vw;
+    color: white;
+}
+
+.page1>p {
+    text-align: center;
+    font-size: 1.3vw;
+    /* width: 60%; */
+    color: white;
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+}
+
+.page1 form {
     display: flex;
-    justify-content: space-between;
-    padding: 0 10%;
-    align-items: center;
-    /* background-color: #C3FF96; */
-    font-size: 18px;
-   
+    justify-content: center;
+}
+
+.page1 input {
+    padding: 2vh 6vw;
+    border-radius: 5px;
+    margin-right: 0.5vw;
+    border: none;
+}
+
+.page1 button {
+    padding: 1vh 2vw;
+    font-size: 1.2vw;
+    color: white;
+    background-color: rgb(147, 83, 83);
+    border-radius: 5px;
+    border: none;
 }
