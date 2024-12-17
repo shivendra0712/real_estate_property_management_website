@@ -90,11 +90,14 @@ nav h1 {
 }
 
 .page1 form {
+    
     display: flex;
     justify-content: center;
 }
 
 .page1 input {
+    text-align: start;
+    font-size: 1.5vw;
     padding: 2vh 6vw;
     border-radius: 5px;
     margin-right: 0.5vw;
@@ -108,4 +111,86 @@ nav h1 {
     background-color: rgb(147, 83, 83);
     border-radius: 5px;
     border: none;
+}
+
+
+/* added style of page2 */
+
+.page2 {
+    width: 100%;
+    height: 70%;
+    background-color: bisque;
+    padding: 1px;
+    padding: 0 3vw;
+}
+.page2_text{
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+}
+.page2 h1{
+    text-align: center;
+    font-size: 3vw;
+    font-weight: 500;
+    padding-top: 3vw;
+    margin-bottom: 1vw;
+}
+
+.page2 button {
+   
+    padding: 1vh 2vw;
+    font-size: 1vw;
+    font-weight: 500;
+    border-radius: 10vw;
+    border: 1px solid black;
+    background-color: transparent;
+}
+.page2_content{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2vw;
+}
+.page2_box{
+    width: 23%;
+    height: 100%;
+   border-radius: 5px;
+   box-shadow:3px 3px 15px #B1D3EF ,-3px -3px 15px #99CFC0;
+   border-radius: 20px;
+  
+}
+.page2_box:hover{
+    
+   box-shadow:3px 3px 15px rgb(87, 86, 86) ,-3px -3px 15px black;
+   border-radius: 20px;
+}
+.page2_box_image{
+    width: 100%;
+    height: 70%;
+   
+}
+.page2_box_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.page2_box_text{
+    width: 100%;
+    height: 30%;
+    background-color: #F3F3F7;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    padding-top: 0.6vw;
+}
+.page2_box_text h3{
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+.page2_box_text p{
+    font-size: 1vw;
+    font-weight: 400;
 }
