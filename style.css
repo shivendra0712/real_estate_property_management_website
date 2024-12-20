@@ -293,3 +293,33 @@ padding-bottom: 8px;
          transform: translateX(-100%);
     }
 }
+
+/* added style of page4 */
+
+.page4 {
+    width: 100%;
+    min-height: 30%;
+    background-color: #F3F3F7;
+    padding: 0 3vw;
+    /* padding: 1px; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* gap: 2rem; */
+}
+
+.page4_box{
+     width: 20%;
+     min-height: 100%;
+     
+}
+.page4_box h3{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+.page4_box ul li{
+    list-style: none;
+    margin: 0.6rem 0;
+}
