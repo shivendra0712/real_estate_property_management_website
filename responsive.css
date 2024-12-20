@@ -248,6 +248,12 @@
         margin-top: 1rem;
         margin-bottom: 0.5rem;
     }
+    .footer_right{
+         margin-top: 1rem;
+    }
+    .footer_right i{
+        font-size: 1.5rem;
+   }
 }
 
 
@@ -390,4 +396,28 @@
     .image>h1 {
         font-size: 3.5vw;
     }
+    .page4 {
+        flex-wrap: wrap;
+       
+
+    }
+
+    .page4_box {
+        width: 50%;
+       
+        flex-shrink: 0;
+    }
+
+    .page4_box h3{
+        font-size: 1rem;
+        font-weight: 500;
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+    }
+    .footer_right{
+         margin-top: 1rem;
+    }
+    .footer_right i{
+        font-size: 1.5rem;
+   }
 }
