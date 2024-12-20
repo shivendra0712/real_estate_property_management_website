@@ -323,3 +323,28 @@ padding-bottom: 8px;
     list-style: none;
     margin: 0.6rem 0;
 }
+
+/* added footer */
+.footer {
+    width: 100%;
+    min-height: 10%;
+    background-color: #dadae1;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 3vw;
+}
+.footer_left{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3vw;
+}
+.footer_right{
+    display: flex;
+    gap: 3vw;
+}
+
+.footer_right i{
+    font-size: 1.5rem;
+}
