@@ -15,16 +15,16 @@ body {
 /* added style of nav */
 nav {
     width: 100%;
-    height: 100px;
+    height: 4em;
     background-color: #dadae1;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 3vw;
+    padding: 3em 3vw;
 }
 
 nav h1 {
-    font-size: 3vw;
+    font-size: 2vw;
 }
 
 .links {
@@ -35,9 +35,10 @@ nav h1 {
 }
 
 .links>a {
+    font-size: 1em;
     text-decoration: none;
-    font-size: 1.2vw;
-    font-weight: 400;
+    font-weight: 600;
+    color: black;
 }
 
 .nemu {
@@ -47,10 +48,12 @@ nav h1 {
 }
 
 .nemu button {
-    padding: 1vh 2vw;
-    font-size: 1.3vw;
-    font-weight: 500;
+    padding: 1em 3em;
+    font-size: 0.9em;
+    font-weight: 600;
     border-radius: 5px;
+    background-color:royalblue;
+    color : white;
     border: none;
 }
 
@@ -61,17 +64,18 @@ nav h1 {
     display: none;
 }
 
-
 /* added style of page1 */
 
 .page1 {
     width: 100%;
-    height: 70%;
+    height: 85%;
     background-image: url(images/hero-section_image.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 1px;
+    padding: 2em;
+    /* position: relative; */
+    
 }
 
 .page1>h1 {
@@ -79,6 +83,7 @@ nav h1 {
     font-size: 4vw;
     margin-top: 7vw;
     color: white;
+    padding: 0 5em;
 }
 
 .page1>p {
@@ -91,26 +96,32 @@ nav h1 {
 }
 
 .page1 form {
-
+    padding: 2em 0;
+    /* background-color: blueviolet; */
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .page1 input {
+    width: 30%;
     text-align: start;
     font-size: 1.5vw;
-    padding: 2vh 6vw;
-    border-radius: 5px;
+    padding: 0.5em 1em;
+    border-radius: 5em;
     margin-right: 0.5vw;
     border: none;
+    outline: none;
 }
 
 .page1 button {
-    padding: 1vh 2vw;
-    font-size: 1.2vw;
+    /* width: 10%; */
+   padding: 1em 3em;
+    font-size: 1em;
     color: white;
     background-color: rgb(147, 83, 83);
-    border-radius: 5px;
+    border-radius: 6em;
     border: none;
 }
 
@@ -120,7 +131,7 @@ nav h1 {
 .page2 {
     width: 100%;
     height: 70%;
-    background-color: bisque;
+    background-color:#637AA4;
     padding: 1px;
     padding: 0 3vw;
 }
@@ -210,7 +221,6 @@ nav h1 {
 .page3 {
     width: 100%;
     height: 80%;
-    background-color: rgb(54, 49, 43);
     padding: 1px;
     
 }
